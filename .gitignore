@@ -1,0 +1,36 @@
+# Historical and local experiment artifacts
+**/ARCHIVE/
+**/archive/
+
+# Checkpoints and model artifacts
+**/ckpt*/
+**/checkpoint*/
+**/checkpoints/
+*.pt
+*.pth
+
+# Generated graph/geometry outputs from code workflows
+code/data/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.venv/
+venv/
+env/
+
+# Logs and scheduler outputs
+*.log
+*.out
+*.err
+*.pbs.o*
+*.pbs.e*
+notes.txt
+
+# Editor and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
