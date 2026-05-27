@@ -16,7 +16,7 @@ topological information.
 Simplex features combine RDKit atom/bond descriptors with geometry-aware
 Forman-Ricci curvature features, following the Periodic-TDL paper workflow.
 
-![Figure 2: HSMP encoder, cross-scale refinement, and Periodic-TDL training workflow.](../figures/Fig2.png)
+![Figure 2: HSMP encoder, cross-scale refinement, and Periodic-TDL training workflow.](../figures/Fig1.png)
 
 This repository contains the scripts needed to:
 
