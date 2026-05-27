@@ -10,7 +10,7 @@ encoder. The workflow is designed to retain covalent structure, periodic
 through-boundary proximity, multiscale topology, and higher-order simplex
 interactions before downstream property prediction.
 
-![Figure 1: Periodic distance matrices and periodic Rips filtrations used by Periodic-TDL.](figures/Fig1.png)
+![Figure 1: Periodic distance matrices and periodic Rips filtrations used by Periodic-TDL.](figures/Fig2.png)
 
 ## What Is Included
 
