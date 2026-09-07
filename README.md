@@ -4,6 +4,8 @@ Code and data release for **Periodic Topological Deep Learning for Polymer Desig
 
 Periodic-TDL converts polymer pSMILES into periodic geometric representations, constructs periodic Vietoris-Rips filtrations over the repeat unit, and learns polymer representations with a Hierarchical Simplicial Message Passing (HSMP) encoder. The workflow is designed to retain covalent structure, periodic through-boundary proximity, multiscale topology, and higher-order simplex interactions before downstream property prediction.
 
+![Figure 1: Periodic distance matrices and periodic Rips filtrations used by Periodic-TDL.](figures/Fig2.png)
+
 ## What Is Included
 
 ```text
