@@ -75,3 +75,16 @@ For a downstream dataset basename such as `Eea`, the expected files are:
 Pretraining and inference-only datasets require only a `smiles` column.
 Downstream fine-tuning datasets require both `smiles` and `value`.
 
+## Data Sources
+
+The datasets released or used with Periodic-TDL were cleaned and processed from publicly available polymer datasets. Please cite the corresponding original dataset and publication when using these data in your own work.
+
+Relevant sources:
+
+- **TransPolymer:** Changwen Xu, Yuyang Wang, and Amir Barati Farimani, *TransPolymer: a Transformer-based language model for polymer property predictions*, npj Computational Materials (2023).
+- **polyVERSE:** Ramprasad-Group/polyVERSE
+- **polymersML:** catauggie/polymersML.
+- Please also cite the original publications identified by these repositories for individual datasets where applicable.
+
+The datasets in this repository have been processed for Periodic-TDL, including preparation of fixed splits.
+
