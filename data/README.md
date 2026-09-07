@@ -30,7 +30,6 @@ dictionaries with row indices under `train` and `test`.
 
 | Dataset | Rows | Property | Unit | Notes |
 | --- | ---: | --- | --- | --- |
-| `Tg` | 8,066 | glass transition temperature | deg C | experimental |
 | `Egc` | 4,125 | bandgap, chain | eV | DFT-derived |
 | `Eib` | 1,744 | electron injection barrier | eV | DFT-derived |
 | `Egb` | 561 | bandgap, bulk | eV | DFT-derived |
@@ -66,11 +65,11 @@ The code expects this folder to sit next to `code/`, with processed files at:
 ../data/processed/
 ```
 
-For a downstream dataset basename such as `Tg`, the expected files are:
+For a downstream dataset basename such as `Eea`, the expected files are:
 
 ```text
-../data/processed/Tg_cleaned.csv
-../data/processed/Tg_folds.pkl
+../data/processed/Eea_cleaned.csv
+../data/processed/Eea_folds.pkl
 ```
 
 Pretraining and inference-only datasets require only a `smiles` column.
